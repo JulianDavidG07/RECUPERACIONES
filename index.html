@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Horario Nivelaciones Grado 11</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f2f4f8;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+    }
+
+    table {
+      width: 100%;
+      min-width: 600px;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+      font-size: 0.95em;
+    }
+
+    th {
+      background-color: #2c3e50;
+      color: #fff;
+    }
+
+    td[rowspan] {
+      background-color: #dfe6ec;
+      font-weight: bold;
+      color: #2c3e50;
+    }
+
+    tr.separator td {
+      border-top: 3px solid #2c3e50;
+      padding: 0;
+      height: 5px;
+      background-color: #ffffff;
+    }
+
+    .vacio {
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    @media (max-width: 768px) {
+      th, td {
+        padding: 8px;
+        font-size: 0.85em;
+      }
+      h1 {
+        font-size: 1.2em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<h1>Horario especial de nivelaciones - Grado 11 (17 al 20 de junio)</h1>
+
+<div class="table-container">
+  <table>
+    <thead>
+      <tr>
+        <th>Día</th>
+        <th>Hora</th>
+        <th>Grado 11°</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Martes -->
+      <tr><td rowspan="5">Martes</td><td>7:00</td><td>Inglés 11 y Políticas</td></tr>
+      <tr><td>8:00</td><td>Emprendimiento 11</td></tr>
+      <tr><td>9:30</td><td>Religión 11 y Filosofía</td></tr>
+      <tr><td>10:30</td><td>Matemáticas 11 y estadística</td></tr>
+      <tr><td>11:45</td><td>Lengua Castellana 11</td></tr>
+      <tr class="separator"><td colspan="3"></td></tr>
+
+      <!-- Miércoles -->
+      <tr><td rowspan="5">Miércoles</td><td>7:00</td><td>Física 11</td></tr>
+      <tr><td>8:00</td><td>Química 11</td></tr>
+      <tr><td>9:30</td><td class="vacio">Técnico</td></tr>
+      <tr><td>10:30</td><td class="vacio">Técnico</td></tr>
+      <tr><td>11:30</td><td>Programación y Robótica</td></tr>
+      <tr class="separator"><td colspan="3"></td></tr>
+
+      <!-- Jueves -->
+      <tr><td rowspan="5">Jueves</td><td>7:00</td><td>Inglés 11 y Políticas</td></tr>
+      <tr><td>8:00</td><td>Emprendimiento 11</td></tr>
+      <tr><td>9:30</td><td class="vacio">Técnico</td></tr>
+      <tr><td>10:30</td><td class="vacio">Técnico</td></tr>
+      <tr><td>11:30</td><td>Lengua Castellana 11</td></tr>
+      <tr class="separator"><td colspan="3"></td></tr>
+
+      <!-- Viernes -->
+      <tr><td rowspan="5">Viernes</td><td>7:00</td><td>Física 11</td></tr>
+      <tr><td>8:00</td><td>Programación y Robótica</td></tr>
+      <tr><td>9:30</td><td>Religión 11 y Filosofía</td></tr>
+      <tr><td>10:30</td><td>Matemáticas 11 y estadística</td></tr>
+      <tr><td>11:30</td><td>Química 11</td></tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
